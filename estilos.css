@@ -19,7 +19,8 @@ h1{
 .grid,
 .grid-pixeles,
 .grid-repeat,
-.grid-area{
+.grid-area,
+.grid-minmax{
 	width: 90%;
 	max-width: 1000px;
 	border: 10px solid #393e4d;
@@ -32,10 +33,12 @@ h1{
 .grid div,
 .grid-pixeles div,
 .grid-repeat div,
-.grid-area div{
+.grid-area div,
+.grid-minmax{
 	display: block;
 	padding: 20px;
 	color: #fff;
 	background: #2cbab5;
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.25);
 }
+

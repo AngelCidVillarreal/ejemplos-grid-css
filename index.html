@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Ejemplos de GRID CSS3</title>
     <style>
+
+        body{
+            background-color: aqua;
+        }
         .grid-pixeles {
             display: grid;
 
@@ -76,6 +80,13 @@
             grid-area: footer;
         }
 
+
+        .grid-minmax {
+            display: grid;
+            grid-template-columns: 100px repeat(2, minmax(200px, 1fr)) 1fr;
+            grid-template-rows: repeat(3, minmax(100px, auto));
+            grid-gap: 15px;
+        }
     </style>
 </head>
 <body>
@@ -156,6 +167,22 @@
         <div>14</div>
         <div>15</div>
         <div>16</div>
+    </div>
+
+    <h2>GRID con minmax</h2>
+    <div class="grid-minmax">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
     </div>
 
 
